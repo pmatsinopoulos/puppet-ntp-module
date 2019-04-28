@@ -1,0 +1,20 @@
+{
+  "name": "panosm-ntp",
+  "version": "0.1.1",
+  "author": "Panagiotis Matsinopoulos",
+  "summary": "Example module to manage NTP",
+  "license": "Apache-2.0",
+  "source": "https://github.com//pmatsinopoulos/puppet-ntp-module.git",
+  "project_page": "https://github.com/pmatsinopoulos/puppet-ntp-module",
+  "tags": ["ntp"],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib",
+      "version_requirement":">= 4.17.0 < 6.0.0"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [ "16.04" ]
+    }
+  ]
+}
